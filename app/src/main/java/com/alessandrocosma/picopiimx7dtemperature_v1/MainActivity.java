@@ -20,9 +20,9 @@ import java.math.BigDecimal;
  * A simple application for AndroidThings platform - PICO-PI-IMX7 with RainbowHat.
  * The RainbowHat BMP280 sensor reports the current temperature every 2 seconds
  * and displays it in the segment display.
- * If temperature >= 38°C the red led is turned on and the device plays an alarm.
- * If 34 <= temperature < 38 the green led is turned on.
- * Otherwise (temperature < 34) blue led is turned on.
+ * If temperature >= 28°C the red led is turned on and the device plays an alarm.
+ * If 24 <= temperature < 28 the green led is turned on.
+ * Otherwise (temperature < 24) blue led is turned on.
  * N.B. Temperature readings are affected by heat radiated from your Pi’s CPU and the onboard LEDs;
  */
 public class MainActivity extends Activity {
@@ -37,6 +37,7 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Log.d(TAG, "onCreate");
 
         /**Turn off the led lights, opened by default*/
         try {
@@ -132,13 +133,13 @@ public class MainActivity extends Activity {
 
             /**Print temperature value, turn on the correct light*/
             try {
-                if(temperature < 30.0f){
+                if(temperature < 24.0f){
                     BoardDefaults.turnOffLedG();
                     BoardDefaults.turnOffLedR();
                     BoardDefaults.turnOnLedB();
                 }
 
-                else if(temperature >= 30.0f && temperature < 31.0f){
+                else if(temperature >= 24.0f && temperature < 28.0f){
                     BoardDefaults.turnOffLedR();
                     BoardDefaults.turnOffLedB();
                     BoardDefaults.turnOnLedG();
@@ -198,6 +199,7 @@ public class MainActivity extends Activity {
 
     @Override
     protected void onDestroy() {
+        Log.d(TAG, "onDestroy");
         super.onDestroy();
 
     }
