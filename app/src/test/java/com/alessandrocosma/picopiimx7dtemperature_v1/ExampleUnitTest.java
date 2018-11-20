@@ -1,4 +1,4 @@
-package com.alessandrocosma.picopiimx7dtemperature;
+package com.alessandrocosma.picopiimx7dtemperature_v1;
 
 import org.junit.Test;
 

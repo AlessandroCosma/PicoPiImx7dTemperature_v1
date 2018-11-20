@@ -1,7 +1,4 @@
-package com.alessandrocosma.picopiimx7dtemperature;
-
-import android.os.Build;
-import android.util.Log;
+package com.alessandrocosma.picopiimx7dtemperature_v1;
 
 import com.google.android.things.contrib.driver.bmx280.Bmx280;
 import com.google.android.things.contrib.driver.rainbowhat.RainbowHat;

@@ -1,13 +1,11 @@
-package com.alessandrocosma.picopiimx7dtemperature;
+package com.alessandrocosma.picopiimx7dtemperature_v1;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.hardware.SensorManager;
 
 import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;
-import android.view.KeyEvent;
 
 import com.google.android.things.contrib.driver.bmx280.Bmx280;
 import com.google.android.things.contrib.driver.button.Button;

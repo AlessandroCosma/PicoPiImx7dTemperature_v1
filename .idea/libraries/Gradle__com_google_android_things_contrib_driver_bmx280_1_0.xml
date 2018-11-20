@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.things.contrib:driver-bmx280-1.0">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/driver-bmx280-1.0.aar/f3ee5388105a6cd14d75df2da32fdb3f/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/driver-bmx280-1.0.aar/f3ee5388105a6cd14d75df2da32fdb3f/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/driver-bmx280-1.0.aar/f3ee5388105a6cd14d75df2da32fdb3f/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.things.contrib/driver-bmx280/1.0/9cc7476cd2d83fe0ff0bba865ff132b7b27ee52f/driver-bmx280-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

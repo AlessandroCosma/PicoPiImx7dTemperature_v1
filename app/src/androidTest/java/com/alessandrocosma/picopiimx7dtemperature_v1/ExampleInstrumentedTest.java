@@ -1,4 +1,4 @@
-package com.alessandrocosma.picopiimx7dtemperature;
+package com.alessandrocosma.picopiimx7dtemperature_v1;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.alessandrocosma.picopiimx7dtemperature", appContext.getPackageName());
+        assertEquals("com.alessandrocosma.picopiimx7dtemperature_v1", appContext.getPackageName());
     }
 }

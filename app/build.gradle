@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.alessandrocosma.picopiimx7dtemperature"
+        applicationId "com.alessandrocosma.picopiimx7dtemperature_v1"
         minSdkVersion 27
         targetSdkVersion 27
         versionCode 1
