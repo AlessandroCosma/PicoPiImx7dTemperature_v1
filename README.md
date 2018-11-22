@@ -1,4 +1,4 @@
-**PicoPiImx7dTemperature**
+**PicoPiImx7dTemperature_v1**
 
 **versione v1: God Activity**
 
