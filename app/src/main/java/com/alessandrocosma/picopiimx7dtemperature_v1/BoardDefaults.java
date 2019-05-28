@@ -35,6 +35,8 @@ public class BoardDefaults {
         ledR.setValue(false);
         //close the device when done
         ledR.close();
+
+        ledR.getValue();
     }
 
     public static void turnOffLedG() throws IOException{
